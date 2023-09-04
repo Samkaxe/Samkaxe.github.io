@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
+    <title>Alworo Family </title>
     <meta charset="UTF-8">
-    <title>Christmas Countdown</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <style>
+        body,h1 {font-family: "Raleway", sans-serif}
+        body, html {height: 100%}
+        .bgimg {
+            background-image: url('./images/woman_oriental_telasm-wallpaper-2560x1440.jpg');
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+    </style>
 </head>
 <body>
-<div class="countdown-container">
-    <h1>Countdown to Christmas</h1>
-    <div class="countdown" id="countdown"></div>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge" style="color: black;">
+        AL-Woro
+    </div>
+    <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+        <hr class="w3-border-grey" style="margin:auto;width:40%">
+        <div class="w3-jumbo w3-animate-top" id="countdown"></div>
+    </div>
 </div>
-<script src="script.js"></script>
 </body>
 </html>
